@@ -13,7 +13,9 @@ export declare type ModalEmits = {
   confirm: () => void,
 }
 
-declare class SModal extends ClassComponent<ModalProps, ModalSlots, ModalEmits> {}
+declare class SModal extends ClassComponent<ModalProps, ModalSlots, ModalEmits> {
+  show: () => void
+}
 
 declare module '@vue/runtime-core' {
   interface GlobalComponents {
