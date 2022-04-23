@@ -1,9 +1,9 @@
 import { outDir, utilsRoot } from './utils/paths'
 import { parallel } from 'gulp'
 import { rollup } from 'rollup'
+import typescript from 'rollup-plugin-typescript2'
 import fs from 'fs'
 import path from 'path'
-import typescript from 'rollup-plugin-typescript2'
 
 // 为每个组件生成package.json
 function generatePackageFile(cb: () => void) {

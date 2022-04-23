@@ -10,7 +10,7 @@
     "jsx": "preserve", // jsx 不转
     "noLib": false, // 不处理类库
     "target": "es6", // 遵循es6版本
-    "sourceMap": true,
+    "sourceMap": false,
     "lib": [
       // 编译时用的库
       "esnext",
