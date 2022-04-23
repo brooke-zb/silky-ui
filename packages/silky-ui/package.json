@@ -1,0 +1,8 @@
+{
+  "name": "silky-ui",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A component library for vue3",
+  "author": "brooke_zb",
+  "license": "MIT"
+}
